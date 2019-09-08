@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AliBaba Automation Test" parallel="false" >
+
+   <!-- <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="62.0"/>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="os" value="mac"/>-->
+    <parameter name="url" value="https:amazon.com"/>
+    <!--http://automationpractice.com-->
+
+<test name = "Ecommerc Home">
+
+    <!--<groups>
+
+        <run>
+
+            <include name="smokeTest" />
+
+        </run>
+
+    </groups>
+-->
+    <classes>
+
+         <!-- <class name="page.objects.test.HomePageTest"/>-->
+       <!-- <class name="tests.page.objects.SignInPageTest"/>-->
+      <!--  <class name="tests.page.objects.SignInUsingGoogleSheetAPI"/>-->
+        <!--<class name="tests.page.objects.ContactUsPageTest"/>-->
+    </classes>
+
+</test>
+</suite>
